@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/2699b5ab-795a-4327-a0d0-df1899a33e0a)
+![image](https://github.com/user-attachments/assets/450493da-ffa7-43b0-89e1-25b145878d49)
+
 
 
 # COMO INSTALAR OHMYPOSH Y EL TEMA
