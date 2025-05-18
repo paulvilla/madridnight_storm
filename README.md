@@ -1,8 +1,4 @@
-![image](https://github.com/user-attachments/assets/450493da-ffa7-43b0-89e1-25b145878d49)
-
-
-
-# COMO INSTALAR OHMYPOSH Y EL TEMA
+# COMO INSTALAR
 
 1. `winget install JanDeDobbeleer.OhMyPosh -s winget`
 2. `oh-my-posh font install` (COMO ADMIN) Es para instalar las fuentes con iconos necesarios para que se quede bonito
@@ -15,3 +11,5 @@
 
 7 - `Install-Module -Name Terminal-Icons -Repository PSGallery` te preguntara si quieres instalar Yes
 8 - `Import-Module Terminal-Icons`
+
+![image](https://github.com/user-attachments/assets/450493da-ffa7-43b0-89e1-25b145878d49)
