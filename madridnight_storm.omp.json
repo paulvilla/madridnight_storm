@@ -17,7 +17,10 @@
     "terminal-magenta": "#bb9af7",
     "blue-black": "#565f89",
     "terminal-black": "#414868",
-    "t-background": "p:main-bg"
+    "t-background": "p:main-bg",
+    "memory-low": "#a8d080",
+    "memory-medium": "#f0d090", 
+    "memory-high": "#f0a0a0"
   },
   "blocks": [
     {
@@ -113,12 +116,22 @@
         {
           "foreground": "#ff8800",
           "style": "diamond",
+          "foreground_templates": [
+            "{{ if lt .PhysicalPercentUsed 60.0 }}p:memory-low{{ end }}",
+            "{{ if and (ge .PhysicalPercentUsed 60.0) (lt .PhysicalPercentUsed 80.0) }}p:memory-medium{{ end }}",
+            "{{ if ge .PhysicalPercentUsed 80.0 }}p:memory-high{{ end }}"
+          ],
           "template": "{{ round .PhysicalPercentUsed .Precision }}% ",
           "type": "sysinfo"
         },
         {
           "foreground": "#ff8800",
           "style": "diamond",
+          "foreground_templates": [
+            "{{ if lt .PhysicalPercentUsed 60.0 }}p:memory-low{{ end }}",
+            "{{ if and (ge .PhysicalPercentUsed 60.0) (lt .PhysicalPercentUsed 80.0) }}p:memory-medium{{ end }}",
+            "{{ if ge .PhysicalPercentUsed 80.0 }}p:memory-high{{ end }}"
+          ],
           "template": "{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1073741824.0) }}/{{ (div .PhysicalTotalMemory 1073741824.0) }}GB ",
           "type": "sysinfo"
         },
