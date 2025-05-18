@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/450493da-ffa7-43b0-89e1-25b145878d49)
 
-Esta version es una mezcla de dos skins:
+Esta version es una mezcla de dos themes:
 - [tokyonight_storm](https://ohmyposh.dev/docs/themes#tokyonight_storm)
 - [illusi0n](https://ohmyposh.dev/docs/themes#illusi0n)
 
