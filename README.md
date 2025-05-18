@@ -8,6 +8,8 @@ He fusionado lo que mas me gusta de las dos y sobre eso estoy creando mi modific
 
 # COMO INSTALAR
 
+Tener ultima version de [PowerShell Link](https://github.com/PowerShell/PowerShell/releases/latest)
+
 1. `winget install JanDeDobbeleer.OhMyPosh -s winget`
 2. `oh-my-posh font install` (COMO ADMIN) Es para instalar las fuentes con iconos, yo uso "JetBrainsMono Nerd Font Mono"
 3. Añadir el archivo `madridnight_storm.omp.json` en la carpeta `%localappdata%\Programs\oh-my-posh\themes` que es donde estan los demas temas de OhMyPosh
