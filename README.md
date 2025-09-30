@@ -12,8 +12,8 @@ Tener ultima version de [PowerShell Link](https://github.com/PowerShell/PowerShe
 
 1. `winget install JanDeDobbeleer.OhMyPosh --source winget --scope user --force`
 2. `oh-my-posh font install` (COMO ADMIN) Es para instalar las fuentes con iconos, yo uso "JetBrainsMono Nerd Font Mono"
-3. Añadir el archivo `madridnight_storm.omp.json` en la carpeta `%localappdata%\Programs\oh-my-posh\themes` que es donde estan los demas temas de OhMyPosh
-4. `oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\madridnight_storm.omp.json" | Invoke-Expression`
+3. Añadir el archivo `madridnight_storm.omp.json` en la carpeta `%USERPROFILE%\Documents\PowerShell` que es donde estan los demas temas de OhMyPosh
+4. `oh-my-posh init pwsh --config "$HOME\Documents\PowerShell\madridnight_storm.omp.json" | Invoke-Expression`
 5. `New-Item -Path $PROFILE -Type File -Force`
 6. `notepad $PROFILE`
 
